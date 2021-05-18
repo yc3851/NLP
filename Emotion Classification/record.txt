@@ -1,0 +1,144 @@
+$ python hw2.py --model extension1
+Loading DataLoaders and embeddings from file....
+1 epoch, validation loss = 1.4019
+2 epoch, validation loss = 1.3861
+3 epoch, validation loss = 1.3861
+4 epoch, validation loss = 1.3853
+5 epoch, validation loss = 1.3876
+Test loss: 
+tensor([1.3939], device='cuda:0')
+F-score: 
+0.22024267427990343
+1 epoch, validation loss = 1.3759
+2 epoch, validation loss = 1.3561
+3 epoch, validation loss = 1.4281
+4 epoch, validation loss = 1.3098
+5 epoch, validation loss = 1.3061
+6 epoch, validation loss = 1.3003
+7 epoch, validation loss = 1.2963
+8 epoch, validation loss = 1.2983
+9 epoch, validation loss = 1.3111
+10 epoch, validation loss = 1.3040
+11 epoch, validation loss = 1.3125
+12 epoch, validation loss = 1.3085
+13 epoch, validation loss = 1.3275
+14 epoch, validation loss = 1.3060
+15 epoch, validation loss = 1.3090
+16 epoch, validation loss = 1.3022
+17 epoch, validation loss = 1.3040
+18 epoch, validation loss = 1.3151
+19 epoch, validation loss = 1.3065
+20 epoch, validation loss = 1.3035
+21 epoch, validation loss = 1.3101
+22 epoch, validation loss = 1.3193
+23 epoch, validation loss = 1.3178
+24 epoch, validation loss = 1.3138
+25 epoch, validation loss = 1.3168
+26 epoch, validation loss = 1.3172
+27 epoch, validation loss = 1.3122
+28 epoch, validation loss = 1.3151
+29 epoch, validation loss = 1.3120
+30 epoch, validation loss = 1.3140
+31 epoch, validation loss = 1.3135
+32 epoch, validation loss = 1.3134
+33 epoch, validation loss = 1.3167
+34 epoch, validation loss = 1.3201
+35 epoch, validation loss = 1.3190
+36 epoch, validation loss = 1.3182
+37 epoch, validation loss = 1.3187
+38 epoch, validation loss = 1.3116
+39 epoch, validation loss = 1.3154
+40 epoch, validation loss = 1.3145
+41 epoch, validation loss = 1.3165
+42 epoch, validation loss = 1.3172
+43 epoch, validation loss = 1.3144
+44 epoch, validation loss = 1.3145
+45 epoch, validation loss = 1.3195
+46 epoch, validation loss = 1.3140
+47 epoch, validation loss = 1.3133
+48 epoch, validation loss = 1.3160
+49 epoch, validation loss = 1.3187
+50 epoch, validation loss = 1.3201
+Test loss: 
+tensor([1.3360], device='cuda:0')
+F-score: 
+0.43691546432119444
+
+$ python hw2.py --model RNN
+Loading DataLoaders and embeddings from file....
+1 epoch, validation loss = 1.4045
+2 epoch, validation loss = 1.4096
+Test loss: 
+tensor([1.4214], device='cuda:0')
+F-score: 
+0.17881016679652434
+1 epoch, validation loss = 1.3782
+2 epoch, validation loss = 1.3659
+3 epoch, validation loss = 1.3614
+4 epoch, validation loss = 1.3717
+5 epoch, validation loss = 1.3850
+6 epoch, validation loss = 1.3628
+7 epoch, validation loss = 1.4196
+8 epoch, validation loss = 1.3575
+9 epoch, validation loss = 1.3498
+10 epoch, validation loss = 1.3522
+11 epoch, validation loss = 1.3533
+12 epoch, validation loss = 1.3563
+Test loss: 
+tensor([1.3592], device='cuda:0')
+F-score: 
+0.3154217918754136
+
+$ python hw2.py --model dense
+Loading DataLoaders and embeddings from file....
+1 epoch, validation loss = 1.4051
+2 epoch, validation loss = 1.3907
+3 epoch, validation loss = 1.3815
+4 epoch, validation loss = 1.3715
+5 epoch, validation loss = 1.3565
+6 epoch, validation loss = 1.3409
+7 epoch, validation loss = 1.3287
+8 epoch, validation loss = 1.3203
+9 epoch, validation loss = 1.3141
+10 epoch, validation loss = 1.3092
+11 epoch, validation loss = 1.3052
+12 epoch, validation loss = 1.3019
+13 epoch, validation loss = 1.2992
+14 epoch, validation loss = 1.2971
+15 epoch, validation loss = 1.2956
+16 epoch, validation loss = 1.2945
+17 epoch, validation loss = 1.2938
+18 epoch, validation loss = 1.2933
+19 epoch, validation loss = 1.2932
+20 epoch, validation loss = 1.2932
+Test loss: 
+tensor([1.3267], device='cuda:0')
+F-score: 
+0.41175137943917073
+1 epoch, validation loss = 1.4114
+2 epoch, validation loss = 1.3924
+3 epoch, validation loss = 1.3828
+]4 epoch, validation loss = 1.3736
+5 epoch, validation loss = 1.3589
+6 epoch, validation loss = 1.3412
+7 epoch, validation loss = 1.3281
+8 epoch, validation loss = 1.3190
+9 epoch, validation loss = 1.3121
+10 epoch, validation loss = 1.3066
+11 epoch, validation loss = 1.3021
+12 epoch, validation loss = 1.2984
+13 epoch, validation loss = 1.2955
+14 epoch, validation loss = 1.2932
+15 epoch, validation loss = 1.2916
+16 epoch, validation loss = 1.2904
+17 epoch, validation loss = 1.2897
+18 epoch, validation loss = 1.2893
+19 epoch, validation loss = 1.2892
+20 epoch, validation loss = 1.2892
+21 epoch, validation loss = 1.2895
+22 epoch, validation loss = 1.2900
+Test loss: 
+tensor([1.3251], device='cuda:0')
+F-score: 
+0.43249965502943244
+root@6353a37b9957:~/pytorch# 
