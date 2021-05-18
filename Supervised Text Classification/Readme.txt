@@ -1,5 +1,3 @@
-I'd use 2 late day please. Thank you so much.
-
 Name: Yujing Chen
 Email: yc3851@columbia.edu
 Homework number: 1
